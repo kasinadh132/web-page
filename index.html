@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>my first web page</title>
-    <style>
-      img {
-        width: 120px;
-        hight: 100px;
-        wight: 100px;
-        border-radius: 60px;
-        float: left;
-        margin-right: 100px;
-      }
-      .username {
-        front-weight: bold;
-      }
-    </style>
+    <link
+      rel="stylesheet"
+      herf="css/bootstrap.min.css"
+      <link
+      rel="stylesheet"
+      herf="https://vigneswara.bootstrapcdn.com/font-awsome/2.1.0/css/font-awsome.min.css"
+    />
+    <link rel="stylesheet" href="src/styles/style.css" />
   </head>
   <body>
-    <img src="images\bala shiva.jpeg" alt="An image of bala shiva" />
-    <p class="username">@bala shiva</p>
-    <p>I love to teach you HTML from kasi!</p>
+    <ul>
+      <li>Home</li>
+      <li>News</li>
+      <li>sports</li>
+      <li>Games</li>
+      <li>Movies</li>
+      <li>Music</li>
+    </ul>
+
+    <div class="links">
+      <a herf="Signin.html">Sign in</a>
+      <a herf="#">Sign Up</a>
+    </div>
+    <img src="images\shivaslepping.jpg" />
+    <div class="signin">
+      <form>
+        <h1>sign up form</h1>
+        <label for="user">First name</label><br />
+        <input type="text" placeholder="Enter Your First Name" /><br />
+        <label for="user">Last name</label><br />
+        <input type="text" placeholder="Enter Your Last Name" /><br />
+
+        <label for="password">Password</label><br />
+        <input type="text" placeholder="Enter Your Password" /><br />
+        <label for="password">Re-EnterPassword</label><br />
+        <input type="text" placeholder="RE-Enter Your Password" /><br />
+
+        <button>Sign UP</button><br />
+      </form>
+    </div>
   </body>
 </html>
